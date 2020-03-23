@@ -5,6 +5,12 @@ body {
     font-size: 1rem;
 }
 
+.bookArea {
+    border-color: red;
+    border-width: thick;
+    padding: 1px;
+}
+
 .seat {
     width: 20px;
     height: 20px;
@@ -13,6 +19,23 @@ body {
     background-repeat: no-repeat;
     z-index: 1;
 
+}
+
+.Governer {
+    background-image: url("images/secondfloor2.PNG");
+    background-repeat: no-repeat;
+
+}
+
+.floorG {
+    background-image: url("images/floorG.PNG");
+    background-repeat: no-repeat;
+
+}
+
+.floorF {
+    background-image: url("images/floorF.PNG");
+    background-repeat: no-repeat;
 }
 
 .grass {
@@ -25,31 +48,23 @@ body {
 
 }
 
-.Cafeteria {
-    width: 380px;
-    height: 220px;
-    border: solid;
-    background-image: url(images/cafe.jpg);
+.lobby {
+    background-image: url(images/lobby.png);
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.seperation {
-    position: relative;
-    border: solid;
-    width: 200px;
-    height: 200px;
-    transform: rotate(40deg);
-    margin-top: 130px;
 
 }
+
+
 
 .office {
     width: 60px;
     height: 60px;
     border: solid;
+    /*
     background-image: url("images/officec.jpg");
     background-repeat: no-repeat;
+*/
 }
 
 .dateLabel {
@@ -63,12 +78,12 @@ input {
 .pooled {
     border: solid;
     border-width: 2.5px;
-    border-color: green;
+    border-color: red;
 
 }
 
 .reserve {
-    border-color: red;
+    border-color: white;
 }
 
 
@@ -87,9 +102,6 @@ input {
 
 }
 
-.smallSpace {
-    margin-left: 40px;
-}
 
 .horizontal {
     display: flex;
@@ -97,74 +109,7 @@ input {
 
 
 
-.copyRoom {
-    border: solid;
-}
 
-.storage {
-    border: solid;
-}
-
-.ftoliet {
-    border: solid;
-    background-image: url("images/female.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.dataCenter {
-    border: solid;
-    background-image: url("images/dataCenter.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.archiveRoom {
-    border: solid;
-}
-
-.stair {
-    border: solid;
-    background-image: url("images/stair.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-
-.mtoliet {
-    border: solid;
-    background-image: url("images/male.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.lap {
-    width: 160px;
-    height: 80px;
-    border: solid;
-    background-image: url("images/GIS.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.lounge {
-    width: 60px;
-    height: 40px;
-    border: none;
-    background-image: url("images/lounge.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.meeting {
-    width: 40px;
-    height: 60px;
-    border: solid;
-    background-image: url("images/meetingc.jpg");
-    background-repeat: no-repeat;
-}
 
 /* Base */
 
